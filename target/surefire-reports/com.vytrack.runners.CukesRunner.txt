@@ -1,25 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.vytrack.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 211.081 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
-Login with Different accounts driver(Account types)  Time elapsed: 9.687 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Dashboard
-
-Login with Different accounts sales manager(Account types)  Time elapsed: 9.592 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Dashboard
-
-Login with Different accounts sales manager(Account types)  Time elapsed: 13.272 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Contacts - Customers
-
-Login with Different accounts sales manager(Account types)  Time elapsed: 16.865 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Dashboard
-
-Login with Different accounts store manager(Account types)  Time elapsed: 9.396 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Dashboard
-
-Login with Different accounts store manager(Account types)  Time elapsed: 16.991 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Dashboard
-
-Login with Different accounts store manager(Account types)  Time elapsed: 14.554 s  <<< FAILURE!
-java.lang.AssertionError: Actual Title: Dashboard
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.53 s - in com.vytrack.runners.CukesRunner
