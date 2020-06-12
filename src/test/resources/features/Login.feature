@@ -1,11 +1,11 @@
-@login
+@login @smoke
 
 Feature: Users should be able to login
 
   Background:
     Given the user is on the login page
 
-  @driver @smoke @VYT-123
+  @driver  @VYT-123
   Scenario: Login as a driver
     When the user enter the driver information
     Then the user should be able to login
@@ -15,7 +15,7 @@ Feature: Users should be able to login
     When the user enter sales manager information
     Then the user should be able to login
 
-  @store_manager @smoke
+  @store_manager
   Scenario: Login as a store manager
     When the user enter store manager information
     Then the user should be able to login

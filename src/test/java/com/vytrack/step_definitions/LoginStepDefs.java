@@ -42,7 +42,7 @@ public class LoginStepDefs {
     public void the_user_should_be_able_to_login() {
         BrowserUtils.waitFor(3);
         String actualTitle = Driver.get().getTitle();
-        Assert.assertEquals("Verify title","Dashboards",actualTitle);
+        Assert.assertEquals("Verify title","Dashboard",actualTitle);
 
     }
 
